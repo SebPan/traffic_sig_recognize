@@ -13,7 +13,7 @@ import argparse
 
 # Argument setup.
 parser = argparse.ArgumentParser(description='Acceptation percentage of the model.')
-parser.add_argument('acceptation', action='store', help='Enter the aceptation percentage between 0 and 1 for the model')
+parser.add_argument('acceptation', action='store', help='Enter the acceptation percentage between 0 and 1 for the model')
 argument = parser.parse_args()
 
 # Camera setup.
